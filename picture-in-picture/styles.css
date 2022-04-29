@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+.html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(37, 37, 37);
+}
+
+.body-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+    margin: 0 10px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px;
+    margin: 5px;
+}
+
+.header {
+    text-align: center;
+    font-family: Amatic SC, Helvetica, sans-serif;
+    font-size: 50px;
+    margin: auto;
+    color: white;
+    margin-bottom: 0;
+}
+
+.header-border {
+    border-top: 2px solid black;
+    width: 255px;
+    display: flex;
+    padding: 0;
+    margin: auto;
+    justify-content: center;
+}
+
+.text {
+    text-align: center;
+    margin: 25px 5px;
+    font-family: Amatic SC, Helvetica, sans-serif;
+    font-size: 40px;
+    color: white;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    padding: 25px;
+    border-radius: 7px;
+}
+
+button {
+    cursor: pointer;
+    outline: none;
+    margin: 0 25px;
+    width: 120px;
+    height: 75px;
+    font-family: Amatic SC, Helvetica, sans-serif;
+    font-size: 50px;
+    color: white;
+    text-shadow: 0 2px 5px black;
+    background: linear-gradient(to top, #696969, #575757);
+    border: 2px solid black;
+    border-radius: 7px;
+    box-shadow: inset 0 20px 4px -19px rgba(255, 255, 255, 0.4), 0 12px 12px 0 rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+    background: linear-gradient(to bottom, #696969, #575757);
+}
+
+button:active {
+    transform: translateY(3px);
+    box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.3);
+}
+
+button:disabled {
+    background: #DCDAD1;
+    color: black;
+}
